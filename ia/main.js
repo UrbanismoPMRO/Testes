@@ -14,7 +14,7 @@
 const CONFIG = {
   // Caminho relativo dos tiles a partir de index.html
   // Aceita os tokens OpenLayers: {z} {x} {y} (e {-y} para TMS invertido)
-  tileUrl: './tiles/ZZZ/XXX/YYY.PNG',
+  tileUrl: './tiles/{z}/{x}/{y}.PNG',
 
   // Extensão dos tiles: 'png' | 'jpg' | 'webp'
   tileExt: 'png',
