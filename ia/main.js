@@ -23,7 +23,7 @@ const CONFIG = {
   zoom: 13,
 
   // Centro inicial [longitude, latitude] em WGS-84
-  center: [-41.93799299, -22.521883596000002],   // Rio de Janeiro como padrão
+  center: [-41.93, -22.52],   // Rio de Janeiro como padrão
 
   // Limites de zoom suportados pelo seu conjunto de tiles
   minZoom: 12,
