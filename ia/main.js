@@ -30,7 +30,7 @@ const CONFIG = {
   maxZoom: 14,
 
   // Projeção do mapa ('EPSG:3857' = Web Mercator, padrão XYZ)
-  projection: 'EPSG:31984',
+  projection: 'EPSG:3857',
 
   // Se seus tiles usam esquema TMS (eixo Y invertido), troque por '{-y}'
   // e altere tileUrl para './tiles/{z}/{x}/{-y}.png'
