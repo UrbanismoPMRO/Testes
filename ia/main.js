@@ -23,11 +23,11 @@ const CONFIG = {
   zoom: 7,
 
   // Centro inicial [longitude, latitude] em WGS-84
-  center: [-43.17, -22.91],   // Rio de Janeiro como padrão
+  center: [-41.93, -22.52],   // Rio de Janeiro como padrão
 
   // Limites de zoom suportados pelo seu conjunto de tiles
-  minZoom: 0,
-  maxZoom: 18,
+  minZoom: 10,
+  maxZoom: 12,
 
   // Projeção do mapa ('EPSG:3857' = Web Mercator, padrão XYZ)
   projection: 'EPSG:3857',
