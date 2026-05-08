@@ -20,14 +20,14 @@ const CONFIG = {
   tileExt: 'png',
 
   // Nível de zoom inicial
-  zoom: 7,
+  zoom: 13,
 
   // Centro inicial [longitude, latitude] em WGS-84
   center: [-41.93, -22.52],   // Rio de Janeiro como padrão
 
   // Limites de zoom suportados pelo seu conjunto de tiles
-  minZoom: 10,
-  maxZoom: 12,
+  minZoom: 12,
+  maxZoom: 14,
 
   // Projeção do mapa ('EPSG:3857' = Web Mercator, padrão XYZ)
   projection: 'EPSG:3857',
